@@ -1,0 +1,38 @@
+html {
+    background-color: #000;
+    align-items: 'center';
+}
+
+body {
+    height: 100%;
+}
+
+.App-logo {
+  height: 200px;
+}
+
+.App-header {
+  height: 80px;
+  margin-bottom: 80px;
+}
+
+.App-intro {
+  font-size: large;
+  color: #FFF;
+  transform: perspective(300px) rotateX(45deg);
+}
+
+p {
+    color: #FFF;
+}
+
+.botao-criar {
+    padding: 10px 15px;
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFFF00;
+    border: none;
+    border-radius: 15px;
+}

@@ -1,0 +1,35 @@
+.Nome {
+    height: 100%;
+}
+
+.Nome-logo {
+  height: 200px;
+}
+
+p {
+    color: #FFF;
+}
+
+.Input {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.botaoClasse {
+    padding: 10px 15px;
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFFF00;
+    border: none;
+    border-radius: 15px;
+}
+
+.genero {
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    margin-bottom: 30px;
+
+}
