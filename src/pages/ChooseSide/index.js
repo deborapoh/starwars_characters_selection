@@ -5,7 +5,7 @@ import sith from '../../imgs/sith.png';
 
 import { Link } from 'react-router-dom';
 
-class PaginaClasse extends Component {
+class ChooseSide extends Component {
 
   render() {
     return (
@@ -29,4 +29,4 @@ class PaginaClasse extends Component {
 
 }
 
-export default PaginaClasse;
+export default ChooseSide;

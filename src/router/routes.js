@@ -31,21 +31,21 @@ export const routes = async () =>
     {
       name: "LUKE",
       path: constants.ROUTES.LUKE,
-      loader: await import("../components/Personagem/Luke")
+      loader: await import("../components/Character/Luke")
     },
     {
       name: "LEIA",
       path: constants.ROUTES.LEIA,
-      loader: await import("../components/Personagem/Leia")
+      loader: await import("../components/Character/Leia")
     },
     {
       name: "BERU",
       path: constants.ROUTES.BERU,
-      loader: await import("../components/Personagem/Beru")
+      loader: await import("../components/Character/Beru")
     },
     {
       name: "DARTH",
       path: constants.ROUTES.DARTH,
-      loader: await import("../components/Personagem/Darth")
+      loader: await import("../components/Character/Darth")
     }
   ]);
