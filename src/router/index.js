@@ -13,7 +13,6 @@ const Router = () => {
     routesList = require("./routes").routes;
 
     const NAVIGATIONS = await routesList();
-    console.log('NAVIGATIONS', NAVIGATIONS)
     setNav(NAVIGATIONS);
   };
 
