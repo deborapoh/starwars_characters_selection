@@ -6,7 +6,7 @@ export default {
   ROUTES: {
     HOME: "/",
     CREATE_CHARACTER: "/create-character",
-    PAGINA_CLASSE: "/pagina_classe",
+    CHOOSE_SIDE: "/choose-side",
     LUKE: "/luke",
     LEIA: "/leia",
     BERU: "/beru",

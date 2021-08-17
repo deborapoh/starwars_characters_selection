@@ -34,7 +34,7 @@ class PaginaNome extends Component {
           <input type="radio" name="gender" value="male" /> Homem<br />
         </form>
 
-        <Link to="/pagina_classe">
+        <Link to="/choose-side">
           <button className="botaoClasse" >Próximo</button>
         </Link>
       </div>

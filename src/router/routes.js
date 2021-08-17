@@ -14,9 +14,19 @@ export const routes = async () =>
       loader: await import("../pages/CreateCharacter")
     },
     {
-      name: "PAGINA_CLASSE",
-      path: constants.ROUTES.PAGINA_CLASSE,
-      loader: await import("../components/PaginaClasse")
+      name: "CHOOSE_SIDE",
+      path: constants.ROUTES.CHOOSE_SIDE,
+      loader: await import("../pages/ChooseSide")
+    },
+    {
+      name: "JEDI",
+      path: constants.ROUTES.JEDI,
+      loader: await import("../pages/ChooseSide/Jedi")
+    },
+    {
+      name: "SITH",
+      path: constants.ROUTES.SITH,
+      loader: await import("../pages/ChooseSide/Sith")
     },
     {
       name: "LUKE",
@@ -37,15 +47,5 @@ export const routes = async () =>
       name: "DARTH",
       path: constants.ROUTES.DARTH,
       loader: await import("../components/Personagem/Darth")
-    },
-    {
-      name: "JEDI",
-      path: constants.ROUTES.JEDI,
-      loader: await import("../components/Jedi")
-    },
-    {
-      name: "SITH",
-      path: constants.ROUTES.SITH,
-      loader: await import("../components/Sith")
     }
   ]);
