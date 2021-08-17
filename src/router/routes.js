@@ -6,7 +6,7 @@ export const routes = async () =>
     {
       name: "HOME",
       path: constants.ROUTES.HOME,
-      loader: await import("../components/Home")
+      loader: await import("../pages/Home")
     },
     {
       name: "PAGINA_NOME",
