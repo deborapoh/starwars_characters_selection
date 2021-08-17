@@ -9,9 +9,9 @@ export const routes = async () =>
       loader: await import("../pages/Home")
     },
     {
-      name: "PAGINA_NOME",
-      path: constants.ROUTES.PAGINA_NOME,
-      loader: await import("../components/PaginaNome")
+      name: "CREATE_CHARACTER",
+      path: constants.ROUTES.CREATE_CHARACTER,
+      loader: await import("../pages/CreateCharacter")
     },
     {
       name: "PAGINA_CLASSE",

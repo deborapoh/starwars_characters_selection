@@ -23,7 +23,7 @@ class Home extends Component {
 
           Crie seu personagem abaixo para acabar com essa palhaçada!
         </p>
-        <Link to="/pagina_nome">
+        <Link to="/create-character">
           <button className="botao-criar" >Criar Personagem</button>
         </Link>
       </div>
